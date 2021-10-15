@@ -7,6 +7,7 @@ consonant = ('B','C','D','F','G','H','J','K','L','M','N','P','Q','R','S','T','Y'
 vowel = ('A','E','I','O','U')
 
 user_word = input('Enter a word to translate to Pig Latin: ')
+# getting first letter and making sure its a string and setting it to uppercase
 first_letter = user_word[0]
 first_letter = str(first_letter)
 first_letter=first_letter.upper()
